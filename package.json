@@ -1,0 +1,43 @@
+{
+	"name": "supabase-turbopack",
+	"author": "Peter Papasavvas <peter@techandtribal.com> (https://techandtribal.com)",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"build": "next build",
+		"dev": "next dev",
+		"dev:turbo": "next dev --turbo --show-all",
+		"lint": "next lint --fix",
+		"preinstall": "npx only-allow pnpm",
+		"start": "next start"
+	},
+	"packageManager": "pnpm@8.7.5",
+	"dependencies": {
+		"@supabase/auth-helpers-nextjs": "^0.8.1",
+		"@supabase/supabase-js": "^2.34.0",
+		"autoprefixer": "^10.4.15",
+		"next": "13.5.1",
+		"postcss": "^8.4.30",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"tailwindcss": "^3.3.3"
+	},
+	"devDependencies": {
+		"@types/eslint": "^8.44.2",
+		"@types/node": "^20.6.3",
+		"@types/react": "^18.2.22",
+		"@types/react-dom": "^18.2.7",
+		"@typescript-eslint/eslint-plugin": "^6.7.2",
+		"@typescript-eslint/parser": "^6.7.2",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.0.0",
+		"encoding": "^0.1.13",
+		"eslint": "^8.49.0",
+		"eslint-config-next": "^13.5.1",
+		"eslint-plugin-react": "^7.33.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"tailwind-merge": "^1.14.0",
+		"tailwindcss-3d": "^1.0.1",
+		"typescript": "^5.2.2"
+	}
+}
